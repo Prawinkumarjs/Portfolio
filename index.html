@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">J <span>S</span></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+            <li><a href="#about" class="nav__link">About</a></li>
+
+            <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+      
+        <div class="nav__socials">
+          <a href="https://www.instagram.com/prawinkumar011" 
+          target="_blank"
+          class="nav__social-link"
+          >
+          <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/prawin-kumar-j-s/ "
+          target="_blank"
+          class="nav__social-link"
+          >
+          <i class="uil uil-linkedin"></i>
+          </a>
+          
+          <a href="https://github.com/Prawinkumarjs" 
+          target="_blank"
+          class="nav__social-link"
+          >
+          <i class="uil uil-github"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to MY World</span>
+            <h1 class="home__title">
+              Hi, I'm Prawin Kumar J S, 
+                <span>
+                  ECE Student | Embedded Systems | IoT | PCB | VLSI  Enthusiastic
+                  </span>
+                  
+            <br>
+            based in Chennai, India.
+            </h1>
+          </div>
+
+          <img src="assets/img/Home.jpg" alt="" class="home__img">
+        </div>
+
+
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img">
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              "I am an Electronics and Communication Engineering student at Rajalakshmi Institute of Technology 
+              with hands-on experience in Embedded Systems, IoT devices, PCB design, and VLSI Design. 
+              I thrive on projects involving real-world applications, from hardware design to AI-powered solutions. 
+              I am highly motivated to pursue internships, research opportunities, and collaborative projects that 
+              allow me to grow and contribute to technology-driven innovations."
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#Education">Education</span>
+              <span class="tabs__btn"data-target="#Internship">Internship</span>
+              <span class="tabs__btn"data-target="#Skills">Skills</span>
+              <span class="tabs__btn"data-target="#Certifications">Certifications</span>
+              <span class="tabs__btn"data-target="#Achievements">Achievements</span>
+            </div>
+
+            <div class="tabs_content">
+              <div class="tabs__item tab__active" data-content id="Education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                   <span>🎓 B.E.  Electronics and Communication Engineering </span> - Rajalakshmi Institute of Technology, Chennai
+                   <br>
+                   <span> August 2021 - May 2025 </span>
+                  </p>
+
+                  <p class="tabs__description">
+                   <span>🎓 Higher Secondary </span> - Z.K.M. Higher Secondary School, Bodinayakanur.
+                   <br>
+                   <span> 2020 - 2021 </span>
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="tabs__item" data-content id="Internship">
+                <div class="tabs__data grid">
+                    <p class="tabs__description">
+                        <span>⚒️ VLSI System Design Internship</span> VSDSquadron (Mini Research Internship)  
+                        <span>October 2024</span>
+                    </p>
+            
+                    <p class="tabs__description">
+                        <span>⚒️ Python Internship</span> CodSoft, India  
+                        <span>March 2024</span>
+            
+                    <p class="tabs__description">
+                        <span>⚒️ AI & ML Internship</span> Pantech Solutions  
+                        <span>2023</span>
+            
+            
+                      </div>
+              </div>
+              <div class="tabs__item" data-content id="Skills">
+              <div class="tabs__data grid">
+                  <p class="tabs__description">
+                      <span>🖥️ Programming Languages:</span> 
+                      Python, C, Verilog HDL, Java , html, css , javascript
+                  </p>
+                  <p class="tabs__description">
+                      <span>⚙️ Core Skills:</span> Embedded Systems, IoT, PCB Design & Layout, Digital Electronics, Image Processing, Frontend Development, Computer Vision
+                  </p>
+                  <p class="tabs__description">
+                      <span>🛠️ Tools & Platforms:</span> Altium Designer, Arduino IDE, Tinkercad, PyCharm, Xilinx, VS Code, Figma, Canva
+                  </p>
+                  <p class="tabs__description">
+                      <span>📊 Database:</span> MySQL
+                  </p>
+              </div>
+              </div>
+              <div class="tabs__item" data-content id="Certifications">
+                <div class="tabs__data grid">
+                    <p class="tabs__description">
+                      📘 System Design Through Verilog  <span>  NPTEL (Jul 2023 - Sep 2023)</span>
+                    </p>
+                    <p class="tabs__description">
+                      📘 Digital Image Processing  <span>  NPTEL (Jul 2023 - Oct 2023)</span>
+                    </p>
+                    <p class="tabs__description">
+                      📘 Python for Beginners<span>  Udemy (Jun 2023) </span>
+                    </p>
+                    <p class="tabs__description">
+                      📘 Arduino Course for Beginners<span>  Udemy (Sep 2023) </span>
+                    </p>
+                    <p class="tabs__description">
+                      📘  Computer Vision Fundamentals <span>  Udemy (July 2023) </span>
+                    </p>
+                    <p class="tabs__description">
+                      📘 VLSI for Beginners<span>  NIELIT (Aug 2024) </span>
+                    </p>
+                    <p class="tabs__description">
+                      📘 PCB Design Basic Course<span>  Altium Education (Aug 2024) </span>
+                    </p>
+                </div>
+              </div>
+              <div class="tabs__item" data-content id="Achievements">
+                <div class="tabs__data grid">
+                    <p class="tabs__description">
+                        Semi-Finalist<span> 🎯 The Inventors Challenge 2023 by AICTE, Arm Education, and STMicroelectronics (Jul 2023 - Nov 2023) </span>
+                    </p>
+      
+                    <p class="tabs__description">
+                        NPTEL STAR<span> 🎯 Recognized as an NPTEL BELIEVER for successfully completing multiple NPTEL courses (Jul 2023 - Dec 2023) </span>
+                    </p>
+
+                    <p class="tabs__description">
+                      Sergeant in NCC Army Wing<span> 🎯 Served as Sergeant in the NCC Army Wing during school, demonstrating leadership and discipline </span>
+                  </p>
+                    
+                </div>
+              </div>
+            
+            
+          
+                  
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services"></section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Awesome Project</h2>
+        <p class="section__description">Here’s a collection of innovative projects I’ve worked on, 
+          combining my passion for electronics, software development, and problem-solving. These 
+          projects showcase my skills in IoT, AI, Embedded Systems, and Computer Vision, aimed at 
+          creating real-world solutions.</p>
+
+          <br>
+          <br>
+
+          <div class="portfolio__container container grid">
+            <div class="portfolio__item">
+              <img src="assets/img/portfolio-1.jpg" 
+              alt="" 
+              class="portfolio__img">
+              
+              <div class="portfolio__data">
+                <p class="portfolio__subtitle">Assistive Technology</p>
+                <h3 class="portfolio__title">AI-Enabled Voice Assistance for Visually Impaired</h3>
+                <p class="portfolio__description">Developed a smart stick with AI-powered object 
+                  detection, voice guidance, and SOS alert features.
+                  <br>
+                  <a href="https://www.linkedin.com/in/prawin-kumar-j-s/details/honors/" style="color: hsl(350, 98%, 64%);" >
+                    Link ↗
+                  </a>
+                </p>
+              </div>
+
+            </div>
+
+            <div class="portfolio__item">
+              <img src="assets/img/portfolio-22.png" 
+              alt="" 
+              class="portfolio__img">
+              
+              <div class="portfolio__data">
+                <p class="portfolio__subtitle">Hardware Design</p>
+                <h3 class="portfolio__title">PCB Design for ESP32 Mini S3</h3>
+                <p class="portfolio__description">Designed a 4-layer PCB with USB-C integration 
+                  using Altium Designer for ESP32 Mini S3
+                  <br>
+                  <a href="https://github.com/Prawinkumarjs/Altium-Projects/tree/main/ESP32%20with%20USBC" style="color: hsl(350, 98%, 64%);">
+                    Link ↗
+                  </a>
+                  </p>
+                  
+              </div>
+            </div>
+
+            <div class="portfolio__item">
+                <img src="assets/img/portfolio-3.jpg" 
+                alt="" 
+                class="portfolio__img">
+                
+                <div class="portfolio__data">
+                  <p class="portfolio__subtitle"> IoT Development</p>
+                  <h3 class="portfolio__title">IoT-Based Weighing Scale</h3>
+                  <p class="portfolio__description">Built a smart weighing scale using ESP8266 and 
+                    HX711 with real-time IoT data monitoring.
+                    <br>
+                  <a class="portfolio__subtitle" href="https://www.youtube.com/watch?v=6uehRk5ZNJg&t=1s"style="color: hsl(350, 98%, 64%);">Link ↗</a>
+                  </p>
+                    
+                </div>
+            </div>  
+
+            <div class="portfolio__item">
+                  <img src="assets/img/portfolio-4.jpg" 
+                  alt="" 
+                  class="portfolio__img">
+                  
+                  <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Computer Vision</p>
+                    <h3 class="portfolio__title">Hand Gesture Recognition</h3>
+                    <p class="portfolio__description">Created a system to detect and recognize hand gestures 
+                      using OpenCV for IoT control.
+                      <br>
+                      <a class="portfolio__subtitle" href="https://www.linkedin.com/posts/prawin-kumar-j-s_ai-deeplearning-innovation-activity-7098484772405985280-uX7j?utm_source=share&utm_medium=member_desktop"
+                      style="color: hsl(350, 98%, 64%);">
+                        Link ↗
+                      </a>
+                    </p>
+                      
+                  </div>
+            </div>
+
+
+            <div class="portfolio__item">
+                  <img src="assets/img/portfolio-5.webp" 
+                  alt="" 
+                  class="portfolio__img">
+                  
+                  <div class="portfolio__data">
+                    <p class="portfolio__subtitle">AI & Image Processing</p>
+                    <h3 class="portfolio__title">Expression Recognition System</h3>
+                    <p class="portfolio__description">Developed a facial expression recognition system using OpenCV 
+                      for improved interaction with assistive technology.
+                      <br>
+                    <a href="https://www.linkedin.com/posts/prawin-kumar-j-s_pythonprogramming-30daysaimasterclass-facialemotionrecognition-activity-7097145299063767040-6eP6?utm_source=share&utm_medium=member_desktop"
+                    style="color: hsl(350, 98%, 64%);">
+                      Link ↗
+                    </a>
+                  </p>
+                  </div>
+            </div>
+
+
+            <div class="portfolio__item">
+                  <img src="assets/img/portfolio-6.png" 
+                  alt="" 
+                  class="portfolio__img">
+                  
+                  <div class="portfolio__data">
+                    <p class="portfolio__subtitle">Machine Learning</p>
+                    <h3 class="portfolio__title">Fake News Detection Using Python and Machine Learning</h3>
+                    <p class="portfolio__description">Built a Python-based ML model to classify and 
+                      detect fake news articles effectively.</p>
+                  </div>
+            </div>
+            <br>
+            <br>
+            <p class="section__description">
+              <h3>
+              <a href="https://github.com/Prawinkumarjs" style="color: hsl(350, 98%, 64%);">And Many more....</a>
+              </h3>
+            </p>
+  
+    
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Hire Me</h2>
+
+            <p class="contact__description">
+              I am available for freelance work and collaboration. contact with me via PHONE :
+              <a href="tel:+91 6380992144">+91 6380992144</a> or EMAIL : 
+              <a href="mailto:prawink554@gmail.com">prawink554@gmail.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+                <div class="contact__form-input">
+                  <input 
+                  type="text"
+                  name="name"
+                  placeholder="Your Name *"  
+                  class="contact__input"
+                  id="contact-name">  
+                </div>
+                
+                <div class="contact__form-input">
+                  <input 
+                  type="email"
+                  name="email"
+                  placeholder="Your EMAIL *"  
+                  class="contact__input"
+                  id="contact-email">  
+                </div>
+
+                <div class="contact__form-input">
+                  <input 
+                  type="text"
+                  name="subject"
+                  placeholder="write a SUbject "  
+                  class="contact__input"
+                  id="contact-subject">  
+                </div>
+                
+                <div class="contact__form-input">
+                  <textarea name="message" 
+                  id="contact-message" 
+                  class="contact__input textarea"
+                  placeholder="Your Message"></textarea> 
+                </div>
+
+                <input type="submit" value="submit" class="btn">
+
+                <p class="error__message" id="error-message"></p>
+
+            </form>
+          </div>
+          <img src="assets/img/contact.jpg" alt="" class="contact__img">
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container Container grid">
+        <a href="" class="footer__logo">J <span>S</span></a>
+
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/prawinkumar011" 
+          target="_blank"
+          class="footer__social-link"
+          >
+          <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/prawin-kumar-j-s/" 
+          target="_blank"
+          class="footer__social-link"
+          >
+          <i class="uil uil-linkedin"></i>
+          </a>
+          
+          <a href="https://github.com/Prawinkumarjs" 
+          target="_blank"
+          class="footer__social-link"
+          >
+          <i class="uil uil-github"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2025. All rights reserved. </p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-u[]">
+      <i class="uil uil-angle-up scroll__icon"></i>
+    </a>
+
+
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" 
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+  
